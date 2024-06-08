@@ -1,4 +1,4 @@
-name: Deploy to Surge
+name: Desplegar a Surge
 
 on:
   push:
@@ -25,4 +25,4 @@ jobs:
       env:
         SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-      run: surge --project ./ --domain your-custom-domain.surge.sh
+      run: surge --project ./ --domain lying-shoe.surge.sh
